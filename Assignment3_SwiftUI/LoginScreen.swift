@@ -67,7 +67,7 @@ struct LoginScreen: View {
                 
                 HStack {
                     Rectangle()
-                        .frame(height: 1)             // horizontal line
+                        .frame(height: 1)         
                         .foregroundColor(.gray)
                     
                     Text("or")
