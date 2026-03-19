@@ -40,7 +40,7 @@ struct SignUpScreen: View {
             }.padding(.top, 40)
             
             VStack {
-                SecureField("Password", text: $password)
+                SecureField("password", text: $password)
                     .foregroundStyle(.indigo)
                 Divider()
             }.padding(.top, 40)
