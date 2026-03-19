@@ -83,7 +83,7 @@ struct LoginScreen: View {
                 
                 Text("Social Media Login")
                     .foregroundStyle(.indigo)
-                    .fontWeight(.semibold)
+                    .fontWeight(.regular)
                     .padding(.top, 60)
                 
                 HStack {
@@ -92,9 +92,10 @@ struct LoginScreen: View {
                     } label: {
                         Image(.googleLogo)
                             .resizable()
-                            .frame(width: 40, height: 40)
+                            .frame(width: 37, height: 37)
+                            .scaledToFit()
                             .foregroundStyle(.black)
-                    }
+                    }.padding(.top, 5)
                     Button {
                         
                     } label: {
@@ -102,16 +103,19 @@ struct LoginScreen: View {
                             .resizable()
                             .frame(width: 50, height: 50)
                             .foregroundStyle(.black)
+                            .scaledToFit()
                             .padding(.horizontal, 10)
-                    }
+                    }.padding(.top, 5)
                     Button {
                         
                     } label: {
                         Image(systemName: "applelogo")
                             .font(.system(size: 30))
+                            .scaledToFit()
                             .foregroundStyle(.black)
-                    }
-                }.padding(.top,2)
+                            
+                    }.padding(.bottom, 1)
+                }
                 
             }
             HStack{
