@@ -76,7 +76,6 @@ struct SignUpScreen: View {
                         .frame(height: 1)
                         .foregroundColor(.gray)
                 }
-                .padding(.horizontal, 50)
                 .padding(.top)
                 
                 Text("Social Media Login")
