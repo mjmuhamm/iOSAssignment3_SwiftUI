@@ -101,7 +101,7 @@ struct SignUpScreen: View {
                             .frame(width: 50, height: 50)
                             .foregroundStyle(.black)
                             .scaledToFit()
-                            .padding(.horizontal, 10)
+                            .padding(.horizontal, 5)
                     }.padding(.top, 5)
                     Button {
                         
