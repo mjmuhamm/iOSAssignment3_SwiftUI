@@ -39,7 +39,7 @@ struct LoginScreen: View {
             
             VStack(alignment: .center) {
                 NavigationLink {
-                    LoginScreen()
+                    
                 } label: {
                     Text("Login")
                         .textCase(.uppercase)
@@ -54,7 +54,6 @@ struct LoginScreen: View {
                 }
                 
                 NavigationLink {
-                    LoginScreen()
                 } label: {
                     Text("Forgot Password?")
                         .foregroundStyle(.indigo)

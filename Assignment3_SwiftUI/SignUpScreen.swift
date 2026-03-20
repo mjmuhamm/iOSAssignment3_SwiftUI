@@ -47,7 +47,6 @@ struct SignUpScreen: View {
             
             VStack(alignment: .center) {
                 NavigationLink {
-                    LoginScreen()
                 } label: {
                     Text("Sign up")
                         .textCase(.uppercase)
